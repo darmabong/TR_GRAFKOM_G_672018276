@@ -182,5 +182,3 @@ void ukuran(int lebar,int tinggi)
     glTranslated(0.0,-5.0,-150.0);
     glMatrixMode(GL_MODELVIEW);
 }
-
-kittyyy
