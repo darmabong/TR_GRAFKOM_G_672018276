@@ -839,6 +839,33 @@ void jndl3()
     glVertex3f(5.0, 30.1, -54.9);
     glEnd();
 }
+
+void jendl3_atas()
+{
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-25.0, 30.1, -54.9);
+    glVertex3f(-25.0, 25.1, -54.9);
+    glVertex3f(20.0, 25.1, -54.9);
+    glVertex3f(20.0, 30.1, -54.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-25.0, 24.1, -54.9);
+    glVertex3f(-25.0, 23.1, -54.9);
+    glVertex3f(20.0, 23.1, -54.9);
+    glVertex3f(20.0, 24.1, -54.9);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-25.0, 22.1, -54.9);
+    glVertex3f(-25.0, 21.1, -54.9);
+    glVertex3f(20.0, 21.1, -54.9);
+    glVertex3f(20.0, 22.1, -54.9);
+    glEnd();
+}
 void jndl33()
 {
     glBegin(GL_QUADS);
@@ -855,7 +882,21 @@ void jndl3_kcl()
     jndl33();
     glTranslated(0,-2,0);
     jndl33();
-    glTranslated(0,-20,0);
+    glTranslated(0,-13,0);
+    jndl33();
+    glTranslated(0,-2,0);
+    jndl33();
+    glTranslated(0,-13,0);
+    jndl33();
+    glTranslated(0,-2,0);
+    jndl33();
+    glTranslated(0,-13,0);
+    jndl33();
+    glTranslated(0,-2,0);
+    jndl33();
+    glTranslated(0,-13,0);
+    jndl33();
+    glTranslated(0,-2,0);
     jndl33();
 
     glPopMatrix();
@@ -876,6 +917,149 @@ void jendela3 ()
 
     glPopMatrix();
     glEnd();
+}
+
+void jendela_samping3()
+{
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-27.0,-40.1, -56.5);
+    glVertex3f(-27.0, -10.1, -56.5);
+    glVertex3f(-29.0, -10.1, -59.0);
+    glVertex3f(-29.0, -40.1, -59.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-27.0,-5.1, -56.5);
+    glVertex3f(-27.0, 0.1, -56.5);
+    glVertex3f(-29.0, 0.1, -59.0);
+    glVertex3f(-29.0, -5.1, -59.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-27.0,5.1, -56.5);
+    glVertex3f(-27.0, 10.1, -56.5);
+    glVertex3f(-29.0, 10.1, -59.0);
+    glVertex3f(-29.0, 5.1, -59.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-27.0,15.1, -56.5);
+    glVertex3f(-27.0, 20.1, -56.5);
+    glVertex3f(-29.0, 20.1, -59.0);
+    glVertex3f(-29.0, 15.1, -59.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-27.0,25.1, -56.5);
+    glVertex3f(-27.0, 30.1, -56.5);
+    glVertex3f(-29.0, 30.1, -59.0);
+    glVertex3f(-29.0, 25.1, -59.0);
+    glEnd();
+}
+void jalanraya()
+{
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(5.1,-39.9, -15.5);
+    glVertex3f(5.1, -39.9, 10.5);
+    glVertex3f(7.1, -39.9, 10.0);
+    glVertex3f(7.1, -39.9, -15.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(18.1,-39.9, -15.5);
+    glVertex3f(18.1, -39.9, 10.5);
+    glVertex3f(20.1, -39.9, 10.0);
+    glVertex3f(20.1, -39.9, -15.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(12.1,-39.9, -10.0);
+    glVertex3f(12.1, -39.9, -5.0);
+    glVertex3f(13.1, -39.9, -5.0);
+    glVertex3f(13.1, -39.9, -10.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(12.1,-39.9, 0.0);
+    glVertex3f(12.1, -39.9, 5.0);
+    glVertex3f(13.1, -39.9, 5.0);
+    glVertex3f(13.1, -39.9, 0.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-50.1,-39.9, 8.0);
+    glVertex3f(-50.1, -39.9, 10.5);
+    glVertex3f(5.1, -39.9, 10.0);
+    glVertex3f(5.1, -39.9, 8.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(20.1,-39.9, 8.0);
+    glVertex3f(20.1, -39.9, 10.5);
+    glVertex3f(50.1, -39.9, 10.0);
+    glVertex3f(50.1, -39.9, 8.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-50.1,-39.9, 27.0);
+    glVertex3f(-50.1, -39.9, 25.5);
+    glVertex3f(50.1, -39.9, 25.0);
+    glVertex3f(50.1, -39.9, 27.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-40.1,-39.9, 17.0);
+    glVertex3f(-40.1, -39.9, 18.0);
+    glVertex3f(-30.1, -39.9, 18.0);
+    glVertex3f(-30.1, -39.9, 17.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(-20.1,-39.9, 17.0);
+    glVertex3f(-20.1, -39.9, 18.0);
+    glVertex3f(-10.1, -39.9, 18.0);
+    glVertex3f(-10.1, -39.9, 17.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(0.1,-39.9, 17.0);
+    glVertex3f(0.1, -39.9, 18.0);
+    glVertex3f(10.1, -39.9, 18.0);
+    glVertex3f(10.1, -39.9, 17.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(20.1,-39.9, 17.0);
+    glVertex3f(20.1, -39.9, 18.0);
+    glVertex3f(30.1, -39.9, 18.0);
+    glVertex3f(30.1, -39.9, 17.0);
+    glEnd();
+
+    glBegin(GL_QUADS);
+    glColor3f(1,1,1);
+    glVertex3f(40.1,-39.9, 17.0);
+    glVertex3f(40.1, -39.9, 18.0);
+    glVertex3f(50.1, -39.9, 18.0);
+    glVertex3f(50.1, -39.9, 17.0);
+    glEnd();
+
+
 }
 void tampil(void)
 {
@@ -909,6 +1093,9 @@ void tampil(void)
     jndl_panjang();
     jendela3();
     jndl3_kcl();
+    jendl3_atas();
+    jendela_samping3();
+    jalanraya();
     glPushMatrix();
     glPopMatrix();
 
@@ -1012,7 +1199,7 @@ void ukuran(int lebar,int tinggi)
     if(tinggi==0) tinggi=1;
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluPerspective(60.0,lebar / tinggi, 3.0,400.0);
+    gluPerspective(40.0,lebar / tinggi, 3.0,400.0);
     glTranslated(0.0,-5.0,-150.0);
     glMatrixMode(GL_MODELVIEW);
 }
